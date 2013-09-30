@@ -1,0 +1,19 @@
+{
+  "name": "watchitmove",
+  "version": "0.0.1",
+  "description": "Move a watched file",
+  "main": "watchitmove.js",
+  "bin": "./watchitmove.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "watch",
+    "move"
+  ],
+  "author": "Debjeet Biswas <debjeet@vxtindia.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "~2.0.0"
+  }
+}
