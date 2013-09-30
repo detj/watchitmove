@@ -17,19 +17,19 @@ npm install -g watchitmove
 In current working directory
 
 ```
-watchitmove -f /var/log/system.log
+watchitmove -w /var/log/system.log
 ```
 
 Specify out path
 
 ```
-watchitmove -f /var/log/system.log -o ~/dump
+watchitmove -w /var/log/system.log -o ~/dump
 ```
 
 Custom watch interval (miliseconds)
 
 ```
-watchitmove -f /var/log/system.log -o ~/dump -i 500
+watchitmove -w /var/log/system.log -o ~/dump -i 500
 ```
 
 ## Usage
