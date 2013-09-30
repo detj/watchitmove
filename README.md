@@ -26,6 +26,12 @@ Specify out path
 watchitmove -f /var/log/system.log -o ~/dump
 ```
 
+Custom watch interval (miliseconds)
+
+```
+watchitmove -f /var/log/system.log -o ~/dump -i 500
+```
+
 ## Usage
 
 ```
@@ -33,9 +39,10 @@ watchitmove -h
 ```
 
 ## Bugs
+
 [Use Github Issues](https://github.com/detj/watchitmove/issues)
 
 
 ## License
 
-
+MIT
